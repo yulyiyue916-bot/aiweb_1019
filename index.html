@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>原圖</h2>
+    <img src="image/ai_in.png" alt="原圖">
+    <h2>新圖</h2>
+    <img src="image/ai_out.png" alt="新圖">
+    <h2>完整工作流程截圖</h2>
+    <img src="image/flow.png" alt="完整工作流程截圖">
+    <h3>正提示詞</h3>
+    <p> masterpiece, best quality, ultra high resolution, extremely detailed, anime style, 1girl, beautiful anime girl, long silky black hair, flowing hair, individual hair strands, detailed bangs, beautiful detailed eyes, sparkling eyes, long eyelashes, delicate facial features, symmetrical face, soft blush, natural skin texture, elegant expression, gentle smile, looking at viewer, detailed clothing, intricate outfit, layered fabric, lace details, silver accessories, hair ornaments, glowing particles, magical aura, sparkling effects, floating petals, swirling wind, dramatic atmosphere, cinematic composition, dynamic pose, beautiful background, fantasy scenery, glowing flowers, soft sunlight, volumetric lighting, rim lighting, god rays, ambient occlusion, global illumination, soft shadows, realistic reflections, depth of field, bokeh, atmospheric perspective, color harmony, vibrant colors, rich details, sharp focus, finely detailed eyes, detailed hair texture, detailed fabric texture, professional illustration, polished artwork, breathtaking scenery, fantasy art, </p>
+    <h3>負提示詞</h3>
+    <p> worst quality, low quality, normal quality, low resolution, blurry, out of focus, pixelated, noisy image, jpeg artifacts, ugly, bad anatomy, bad proportions, deformed body, malformed hands, bad hands, poorly drawn hands, extra fingers, missing fingers, fused fingers, extra arms, extra legs, missing limbs, twisted limbs, unnatural pose, distorted face, asymmetrical eyes, cross-eyed, poorly drawn eyes, malformed fingers, duplicate person, multiple heads, extra limbs, cropped head, out of frame, text, watermark, logo, signature, oversaturated, overexposed, underexposed, harsh shadows, messy background</p> 
+    <h2>心得</h2>
+    <p> 一開始寫完所有節點之後發現少了模型未加入,之後又因為照片解析度太高無法生成照片,所以在pytorch的命令列裡找到記憶體崩潰的問題,因此又加了一個節點去調整照片的長寬就成功了</p>
+</body>
+</html>
